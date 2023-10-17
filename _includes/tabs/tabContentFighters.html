@@ -1,0 +1,53 @@
+<div class="row mt-3">
+    <div id="image-container" style="display: none;"></div>
+
+    <div class="col-lg-8">
+        <img id="card-border" style="display: none;" src="assets/img/fighters/card-border.png">
+        <img id="warcry-fighter-frame" style="display: none;" src="assets/img/fighters/warcry-fighter-frame.png">
+        <img id="bg-dark-102" style="display: none;" src="assets/img/fighters/bg-dark-102.jpg">
+        <img id="bg-dark-112" style="display: none;" src="assets/img/fighters/bg-dark-112.jpg">
+        <img id="bg-dark-302" style="display: none;" src="assets/img/fighters/bg-dark-302.jpg">
+        <img id="bg-dark-312" style="display: none;" src="assets/img/fighters/bg-dark-312.jpg">
+        <img id="bg-fire-102" style="display: none;" src="assets/img/fighters/bg-fire-102.jpg">
+        <img id="bg-fire-112" style="display: none;" src="assets/img/fighters/bg-fire-112.jpg">
+        <img id="bg-ghur-401" style="display: none;" src="assets/img/fighters/bg-ghur-401.jpg">
+        <img id="bg-ghur-402" style="display: none;" src="assets/img/fighters/bg-ghur-402.jpg">
+        <img id="bg-ghur-403" style="display: none;" src="assets/img/fighters/bg-ghur-403.jpg">
+        <img id="bg-ghur-404" style="display: none;" src="assets/img/fighters/bg-ghur-404.jpg">
+        <img id="bg-ghur-501" style="display: none;" src="assets/img/fighters/bg-ghur-501.png">
+        <img id="mordheim01" style="display: none;" src="assets/img/fighters/mordheim01.jpg">
+        <img id="bg-christmas-001" style="display: none;" src="assets/img/fighters/bg-christmas-001.jpg">
+        <img id="bg-aos" style="display: none;" src="assets/img/fighters/bg-aos.jpg">
+        <img id="bg-green" style="display: none;" src="assets/img/fighters/bg-green.png">
+        <img id="bg-red" style="display: none;" src="assets/img/fighters/bg-red.png">
+        <img id="weapon-profile" style="display: none;" src="assets/img/weapon-profile.png">
+        <img id="circle" style="display: none;" src="assets/img/circle.png">
+        <img id="circle_black" style="display: none;" src="assets/img/circle_black.png">
+
+        <canvas class="canvas rounded" id="canvas" width="1122" height="822">
+            Sorry, your browser doesn't support the &lt;canvas&gt; element.
+        </canvas>
+    </div>
+
+    <div class="col-lg-4 scroll-area-fade">
+        <div class="scroll-area">
+            <div class="accordion">
+
+                {% include fighters/section-characteristics.html %}
+                {% include fighters/section-runemarks.html %}
+                {% include fighters/section-weapons.html %}
+                {% include fighters/section-image.html %}
+                {% include fighters/section-factionrunemark.html %}
+                {% include fighters/section-subfactionrunemark.html %}
+                {% include fighters/section-deployment.html %}
+                {% include fighters/section-background.html %}
+
+
+            </div>
+
+            {% include fighters/section-actions.html %}
+
+        </div>
+    </div>
+
+</div>

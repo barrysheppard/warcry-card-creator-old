@@ -1,0 +1,93 @@
+<div class="row mt-3">
+
+    <div class="col-lg-8">
+        <div class="jumbotron">
+            <h3>Warcry Card Creator 3.0 – Fighters and Abilities</h3>
+            <hr class="my-4">
+            <p>Updates and Tips</p>
+            <ul>
+                <li>Changed backgrounds to dropdown.</li>
+                <li>Abilities can now be selected from a drop down, this is thanks to the hard work by the Warcry data team.</li>
+                <li>Added a linking option, so if you add ?fighter=Gryph-hound to the end of the URL it will try match the name and will return the result from the database. The Gryph-hound can be in multiple warbands, so you can add an optional warband field, so ?gryph-hound&warband=SCE:Vanguard hopefully this will be useful for page who want to link to a fighter.</li>
+                <li>Added unofficial firearm icon, just felt like we needed one.</li>
+                <li>Added check box in the custom background section to remove the card frame. This can be handy for making card backs or adding extra elements. Just keep saving the card as image and loading it back up as background with the new element as the fighter image.</li>
+                <li>The background section now has an extra option to upload your own background.</li>
+                <li>Big format change, we now have a white border and the size should be in line with the default format for cards.
+                    Hopefully this will make it easiser to print them. Lots of changes with positions, if anything breaks please tell me.</li>
+                <li>Added in Gryselle's Arenai runemark and stats.</li>
+                <li>Option to include names under Runemarks added. For the fighter cards its in the Runemark section. For the abilities card, it's in the title section as otherwise we'd have to tick it for each and every ability.</li>
+                <li>Looncourt added.</li>
+                <li>Bladeborn icons updated to current GW format which does not include the border.</li>
+                <li>New feature with a drop down list to select some profiles. These are still a work in progress so many will be incorrect or missing things especially the runemarks.</li>
+                <li>Added some Mordheim themed options</li>
+                <li>Added Jade Obelisk runemark</li>
+                <li>Added Hunters of Huanchi runemark</li>
+                <li>If you only have any of the first three abilities ticked, the text and runemarks will now be larger
+                    for a smaller card
+                    format. To disable this, just make sure you tick another ability even if all details are blank.
+                </li>
+                <li>Added runemarks for bladeborn sub-factions from WD 477 Exiled Dead, Blackpowders Buccaneers, Da
+                    Kunnin Krew, and Xandiers Truthseekers</li>
+                <li>Added Sons of Velmorn and Gnarlspirit pack sub-factions. Also resloved issue where sub-factions and
+                    factions were both appearing on the left side for abilities. Now only one will appear.
+                </li>
+                <li>Minor update, added image and adjust file name saving, now underscores replace the spaces in a name
+                </li>
+                <li>Updated to 3.0! Images in the Fighter card are now saved in json and appear again when the json is
+                    uploaded.</li>
+                <li>Minor updates to avoid the abilities page going blank if you click in and out of it.</li>
+                <li>Objects now have word wrapping and text alignment is linked, so no need to align with carriage
+                    returns. Also changed to centre alignment.</li>
+                <li>Ability text now word wraps automatically and probably spaces with Title text.</li>
+                <li>Abiliies now have automatic adjustment depending on 1, 2, or 3 runemarks selected.</li>
+                <li>Abilities can now have 7 abilities the 7th is default unticked but if you enable it the text and
+                    runemarks will adjust to fit. Make sure you change to a no line background.</li>
+                <li>Fighter and Ability cards can now be saved a JSON, so they can be loaded again. Currently the
+                    fighter image is not included.</li>
+                <li>Fighter subfaction runemark now has a black circle background. Choosing the last subfaction option
+                    will clear it.</li>
+                <li>Fighter - Setting a characteristic to 0 will now appear as *, this is for Monsters who have variable
+                    characteristics.</li>
+            </ul>
+            <hr class="my-4">
+            <p><a href="https://github.com/barrysheppard/warcry-card-creator" target="_blank">This<a> is a
+                        fork of <a href="hennirocks.github.io/warcry-card-creator/" target="_blank">Hennirocks
+                            version</a>, updated by <a href="https://github.com/barrysheppard"
+                            target="_blank">@barrysheppard</a> for the new edition of Warcry to include Heart of Ghur
+                        styles, name for fighter cards, and other comestic adjustments.</p>
+            <p>A fork of <a href="https://rachelnertia.github.io/warcry-card-creator" target="_blank">@rachelnertia's
+                    work</a>. Further development and graphics (except runemarks) by <a
+                    href="https://hendrik-berends.de/en" target="_blank">HENNIROCKS</a> and <a
+                    href="https://github.com/apathyward" target="_blank">@apathyward</a>. Additional work by <a
+                    href="https://github.com/dorb4n" target="_blank">@dorb4n</a>, much appreciated! Made with <a
+                    href="https://bootswatch.com" target="_blank">Bootswatch</a>, supporting dark and light mode.</p>
+            <p>
+                <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license" target="_blank">
+                    <img alt="Creative Commons license agreement" src="assets/img/creativecommons-by-nc.svg"
+                        height="31">
+                </a>
+                <a id="octocat" href="https://github.com/barrysheppard/warcry-card-creator" target="_blank">
+                    <svg width="31" height="31" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z" />
+                    </svg>
+                </a>
+            </p>
+            <p>Please note that this is a non-commercial and non-profit project created by an enthusiast of Games
+                Workshop products. This project is created and gets updated in personal freetime, it may get abandoned
+                on the long run. Being open source, feel free to fork this project and help adapt and improve it.</p>
+            <p><strong>This project is in no way endorsed or sanctioned by Games Workshop.</strong> Should the owner
+                wish to authorise or cease useage then please <a href="https://github.com/barrysheppard"
+                    target="_blank">get in touch</a>.</p>
+            <p><small>Warhammer Age of Sigmar: Warcry &copy; Copyright Games Workshop Ltd. GW, Games Workshop, Citadel,
+                    White Dwarf, Space Marine, 40K, Warhammer, Warhammer 40,000, the 'Aquila' Double-headed Eagle logo,
+                    Warhammer Age of Sigmar, Battletome, Stormcast Eternals, and all associated logos, illustrations,
+                    images, names, creatures, races, vehicles, locations, weapons, characters, and the distinctive
+                    likenesses thereof, are either &reg; or &trade;, and/or &copy; Games Workshop Limited, variably
+                    registered around the world. All Rights Reserved.</small></p>
+        </div>
+    </div>
+
+    <div class="col-lg-4"></div>
+
+</div>
